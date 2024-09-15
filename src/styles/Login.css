@@ -1,0 +1,80 @@
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.login-container h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.email-login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.email-login-btn:hover {
+    background-color: #1976d2;
+}
+
+
+.google-login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #db4437;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.google-login-btn:hover {
+    background-color: #c1351d;
+}
+
+
+.register-link-container {
+    margin-top: 15px;
+}
+
+.register-link {
+    color: #2196f3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.register-link:hover {
+    color: #1976d2;
+}
