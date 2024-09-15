@@ -44,10 +44,13 @@ Certifique-se de ter o arquivo firebaseConfig.js (ou .ts) configurado com suas c
 
 ### 5.  Execute o Projeto
 
-nicie o servidor de desenvolvimento:
+inicie o servidor de desenvolvimento:
+
 npm start
 # ou
+
 yarn start
+
 O aplicativo será iniciado e estará disponível em http://localhost:3000.
 
 ### Estrutura do Projeto
