@@ -1,46 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gerenciador de Orçamento Pessoal
 
-## Available Scripts
+Este é um aplicativo de gerenciamento de orçamento pessoal desenvolvido com React e Firebase. O aplicativo permite que os usuários gerenciem suas receitas e despesas, visualizem resumos financeiros e gráficos interativos.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Gerenciamento de Receitas e Despesas:** Adicione, edite e exclua receitas e despesas.
+- **Resumo Financeiro:** Visualize o total de receitas, despesas e saldo.
+- **Gráficos Interativos:** Visualize as receitas, despesas e saldo em gráficos do tipo Doughnut.
+- **Autenticação de Usuário:** Faça login e cadastro usando e-mail e Google.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Acesso ao Aplicativo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O aplicativo está hospedado no Firebase e pode ser acessado através do seguinte link:
 
-### `npm test`
+[Gerenciador de Orçamento Pessoal](https://orcamentopessoal-7751d.firebaseapp.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Configuração do Projeto
 
-### `npm run build`
+Para rodar o projeto localmente, siga os passos abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone o Repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone o repositório para sua máquina local:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
 
-### `npm run eject`
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 2.  Navegue até o Diretório do Projeto
+cd SEU_REPOSITORIO
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3.Instale as Dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instale as dependências do projeto usando npm ou yarn:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install
+### ou
+yarn install
 
-## Learn More
+### 4. Configuração do Firebase
+Certifique-se de ter o arquivo firebaseConfig.js (ou .ts) configurado com suas credenciais do Firebase. Esse arquivo deve estar incluído no diretório do projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 5.  Execute o Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+inicie o servidor de desenvolvimento:
+
+npm start
+### ou
+
+yarn start
+
+O aplicativo será iniciado e estará disponível em http://localhost:3000.
+
+### Estrutura do Projeto
+
+1. src/: Contém os arquivos de código-fonte do projeto.
+1.components/: Componentes reutilizáveis do React.
+1. pages/: Páginas do aplicativo.
+1. styles/: Arquivos CSS para estilização.
+1. firebaseConfig.js: Configuração do Firebase.
+1. public/: Arquivos estáticos e index.html.
+
+
