@@ -36,7 +36,7 @@ cd SEU_REPOSITORIO
 Instale as dependências do projeto usando npm ou yarn:
 
 npm install
-# ou
+### ou
 yarn install
 
 ### 4. Configuração do Firebase
@@ -47,7 +47,7 @@ Certifique-se de ter o arquivo firebaseConfig.js (ou .ts) configurado com suas c
 inicie o servidor de desenvolvimento:
 
 npm start
-# ou
+### ou
 
 yarn start
 
